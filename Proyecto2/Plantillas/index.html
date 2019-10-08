@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!--------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+    <!--Para agregar FUENTES desde GOOGLE
+    <link href="https://fonts.googleapis.com/css?family=Be+Vietnam&display=swap" rel="stylesheet">
+    <style>
+            @import url('https://fonts.googleapis.com/css?family=Be+Vietnam&display=swap');
+    </style>
+    -->
+    
+    {% load bootstrap4 %}
+    {% bootstrap_css %}
+
+
+    {% load staticfiles %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+    
+    
+    <!--------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+    <title>Página Principal</title>
+</head>
+<body>
+
+    <!--------------------------------------------------------------------------------------------------------------------------------------------------------------->
+    
+    <header>
+        <div class="container">
+            <h1>ENCABEZADO</h1>
+        </div>
+    </header>
+    
+    <!--------------------------------------------------------------------------------------------------------------------------------------------------------------->
+    <div class="container"> <!--CONTAINER-FLUID sirve para abarcar TODA la pantalla-->
+        <section class="main row">
+            <article class="col-xs-12 col-sm-8 col-md-9 col-lg-9">
+                <p>
+                    <h3>Artículo</h3>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae consequuntur doloremque pariatur minus 
+                    mollitia suscipit ipsum? Quam dolorum soluta veniam illo nam inventore ducimus expedita quia animi, ipsa perferendis 
+                    maiores!Quod voluptates inventore culpa. Nobis, quaerat velit numquam soluta corporis amet dolor rem, ad placeat deleniti eveniet maxime labore. 
+                    Vel, animi nam hic aperiam ex unde quis esse culpa doloribus?0
+                </p>
+            </article>
+            <aside class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
+                <p>
+                    <h3>Aside</h3>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    Laudantium, veritatis odio minus nostrum ea quod architecto impedit sit corporis aut blanditiis, inventore ex molestias odit maiores! 
+                    Voluptas odio rerum velit?
+                </p>
+            </aside>
+        </section>
+        <div class="row">
+
+            <div class="color1 col-xs-12 col-sm-6 col-md-3">
+                <p>
+                    <h4>Columna 1</h4>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda quia id labore quos reprehenderit alias nisi aperiam molestiae asperiores similique, commodi modi corporis eveniet tempora esse voluptate quisquam autem! Quia nam, nostrum illo aliquid, totam beatae perferendis similique consectetur recusandae magni adipisci ea! Quidem non laborum fugit nobis iusto asperiores?
+                </p>
+                <p>                    
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda quia id labore quos reprehenderit alias nisi aperiam molestiae asperiores similique, commodi modi corporis eveniet tempora esse voluptate quisquam autem! Quia nam, nostrum illo aliquid, totam beatae perferendis similique consectetur recusandae magni adipisci ea! Quidem non laborum fugit nobis iusto asperiores?
+                </p>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <p>
+                    <h4>Columna 2</h4>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda quia id labore quos reprehenderit alias nisi aperiam molestiae asperiores similique, commodi modi corporis eveniet tempora esse voluptate quisquam autem! Quia nam, nostrum illo aliquid, totam beatae perferendis similique consectetur recusandae magni adipisci ea! Quidem non laborum fugit nobis iusto asperiores?
+                </p>
+            </div>
+
+            <!--
+            <div class="clearfix visible-sm-block"></div>
+            -->
+
+            <div class="color1 col-xs-12 col-sm-6 col-md-3">
+                <p>
+                    <h4>Columna 3</h4>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda quia id labore quos reprehenderit alias nisi aperiam molestiae asperiores similique, commodi modi corporis eveniet tempora esse voluptate quisquam autem! Quia nam, nostrum illo aliquid, totam beatae perferendis similique consectetur recusandae magni adipisci ea! Quidem non laborum fugit nobis iusto asperiores?
+                </p>
+            </div>
+            
+            
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <p>
+                    <h4>Columna 4</h4>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda quia id labore quos reprehenderit alias nisi aperiam molestiae asperiores similique, commodi modi corporis eveniet tempora esse voluptate quisquam autem! Quia nam, nostrum illo aliquid, totam beatae perferendis similique consectetur recusandae magni adipisci ea! Quidem non laborum fugit nobis iusto asperiores?
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+    <!--------------------------------------------------------------------------------------------------------------------------------------------------------------->
+    
+      <button class="btn btn-primary">¡BOTÓN!</button>
+
+    <!--------------------------------------------------------------------------------------------------------------------------------------------------------------->
+    
+    <footer>
+        <div class="container">
+            <h3>Archie.medes</h3>
+        </div>
+    </footer>
+
+
+    <!--------------------------------------------------------------------------------------------------------------------------------------------------------------->
+    <!--JQUERYS-->
+
+   
+    
+    {% bootstrap_javascript jquery='full' %}
+   
+    
+</body>
+</html>

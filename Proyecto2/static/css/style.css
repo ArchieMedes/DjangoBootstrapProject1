@@ -1,0 +1,52 @@
+header{
+    background: #1C4DBF;
+    color: #fff;
+}
+
+.main{
+    background: #f2f2f2;
+}
+
+.color1{
+    background: #34495e;
+    color: #fff;
+}
+
+aside{
+    background: #B40C58;
+    color: #fff;
+}
+
+
+footer{
+    background: #30AD9F;
+    color: white;
+}
+
+/*
+body{
+    font-family: 'Be Vietnam', sans-serif;
+}
+*/
+/*
+nav{
+    text-align: center;
+    list-style-type: none;
+    position: relative;
+    z-index: 100;
+}
+
+li{
+    display: inline;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+p{
+    text-align: center;
+}
+*/
+
+
+
+
